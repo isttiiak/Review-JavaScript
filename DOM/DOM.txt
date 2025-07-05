@@ -1,0 +1,16 @@
+- DOM stands for Document Object Model.
+- It represents the structure of an HTML or XML document as a tree of objects.
+- Each element, attribute, and piece of text is a node in the DOM tree.
+- JavaScript can access and modify the DOM to change the content, structure, and style of a webpage.
+- Common DOM methods include getElementById, getElementsByClassName, querySelector, and querySelectorAll.
+- DOM manipulation allows dynamic updates to web pages without reloading.
+- Events (like clicks and key presses) can be handled using the DOM.
+- The DOM is platform- and language-independent.
+- Modern browsers provide developer tools to inspect and manipulate the DOM.
+
+- window object is a browser object that created by the respective browser. Window Object is a global object with lots of properties and method like alert, console.log .....
+
+- All HTML code can access by the JavaScript
+
+- console.log --> print as an element 
+- console.dir --> print  object
