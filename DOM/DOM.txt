@@ -14,3 +14,42 @@
 
 - console.log --> print as an element 
 - console.dir --> print  object
+
+Dom manipulation:
+
+* properties:
+    tagName: returns the tag name of the element.
+    innerText: returns the text content of the element.
+    innerHTML: returns the HTML content of the element.
+    className: returns the class name of the element.
+    id: returns the id of the element.
+    style: returns the inline style of the element.
+    attributes: returns a NamedNodeMap of the element's attributes.
+    value: returns the value of the element (for input elements).
+- Methods:
+    getElementById(id): returns the element with the specified id.
+    getElementsByClassName(className): returns a live HTMLCollection of elements with the specified class name.
+    getElementsByTagName(tagName): returns a live HTMLCollection of elements with the specified tag name.
+    querySelector(selector): returns the first element that matches the specified CSS selector.
+    querySelectorAll(selector): returns a static NodeList of elements that match the specified CSS selector.
+    createElement(tagName): creates a new element with the specified tag name.
+    createTextNode(text): creates a new text node with the specified text.
+    appendChild(node): adds a node as the last child of the element.
+    removeChild(node): removes a child node from the element.
+    replaceChild(newNode, oldNode): replaces an old child node with a new node.
+    setAttribute(name, value): sets the value of an attribute on the element.   
+
+
+** Events:
+    click: occurs when the element is clicked.
+    mouseover: occurs when the mouse pointer is moved over the element.
+    keydown: occurs when a key is pressed down while the element is focused.
+    keyup: occurs when a key is released while the element is focused.
+    focus: occurs when the element gains focus.
+    blur: occurs when the element loses focus.  
+    change: occurs when the value of the element changes.
+    submit: occurs when a form is submitted.
+    load: occurs when the element is loaded.
+- Event listeners can be added to elements to respond to user interactions.
+- The DOM can be traversed using properties like parentNode, childNodes, firstChild, lastChild, nextSibling, and previousSibling.
+- The DOM can be modified by adding, removing, or changing elements using methods like appendChild, removeChild, replaceChild, and setAttribute.
