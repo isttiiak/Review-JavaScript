@@ -1,8 +1,17 @@
 body {
     width: max-content;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
-h1 {
-    color: rgb(255, 255, 255);
+
+/* Mode change with class */
+
+.dark {
+    background-color: darkgreen;
+    color: bisque;
+}
+
+.light {
+    background-color: blanchedalmond;
+    color: darkblue;
 }

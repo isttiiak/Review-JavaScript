@@ -15,6 +15,23 @@
 - console.log --> print as an element 
 - console.dir --> print  object
 
+** Priority for JavaScript code is the js file instead of inline script.
+
+** on fire an event the function that runs we call it Handler.
+
+* Difference Between querySelector and querySelectorAll:
+
+** querySelector() returns only the first matching element as a single Element object.
+
+** querySelectorAll() returns all matching elements as a static NodeList that can be iterated over
+
+* Comparison with Other DOM Selection Methods:
+
+** Unlike getElementById(), which only selects elements by their unique ID, querySelector() accepts any CSS selector, making it more flexible. However, getElementById() is slightly faster for ID-based selection.
+
+** Methods like getElementsByClassName() or getElementsByTagName() return live HTMLCollections, whereas querySelectorAll() returns a static NodeList
+
+
 Dom manipulation:
 
 * properties:
@@ -51,5 +68,21 @@ Dom manipulation:
     submit: occurs when a form is submitted.
     load: occurs when the element is loaded.
 - Event listeners can be added to elements to respond to user interactions.
-- The DOM can be traversed using properties like parentNode, childNodes, firstChild, lastChild, nextSibling, and previousSibling.
-- The DOM can be modified by adding, removing, or changing elements using methods like appendChild, removeChild, replaceChild, and setAttribute.
+
+* Event Object:
+It is a special object that has details about the event.
+All event handlers have access to the event Objects properties and method.
+
+like, where the event were occurred, what is the type of the event, 
+
+* Event listeners
+
+we can handle Event by,
+    >> inline handling (inside the tag we used the code like an attribute)
+        - for multiline the code becomes bulky.
+    >> In JS script file through a function we handled Event (node.event => {}) 
+        - We can write one function to implement one event 
+    
+        >> Event listeners
+            -- Always wait for Event and when it got an Event start action
+            -- we can write multiple Event listeners for one Event
